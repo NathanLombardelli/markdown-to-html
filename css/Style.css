@@ -39,10 +39,7 @@ i{
 img{
     display: flex;
     justify-content: center;
-}
-
-#borderImage{
-    border: white 25px solid;
+    border-radius: 25%;
 }
 
 #logo{
