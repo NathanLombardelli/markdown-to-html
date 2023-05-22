@@ -1,3 +1,6 @@
+@import url('https://fonts.cdnfonts.com/css/heavy-metal-blight');
+@import url('https://fonts.cdnfonts.com/css/green-screen');
+@import url('https://fonts.cdnfonts.com/css/shark-made-in-japan');
 
 body{
     background: linear-gradient(180deg, rgba(173,170,210,1) 0%, rgba(65,11,11,1) 0%, rgba(28,9,7,1) 100%);
@@ -6,6 +9,22 @@ body{
     flex-direction: column;
     align-items: center;
 
+}
+
+#metalleux{
+    font-family: 'Heavy Metal Blight', sans-serif;
+    font-size: 0.5em;
+    position: relative;
+    top: -2px;
+    margin-left: 5px;
+}
+
+#geek{
+    font-family: 'Green Screen', sans-serif;
+}
+
+#otaku{
+    font-family: 'Shark Made In Japan', sans-serif;
 }
 
 h1{
@@ -22,8 +41,27 @@ img{
     justify-content: center;
 }
 
+#borderImage{
+    border: white 25px solid;
+}
+
+#logo{
+    position: absolute;
+    z-index: -1;
+    height: 400px;
+}
+
+#moi:hover{
+
+    z-index: -99;
+
+}
+
+
+
 h2{
     text-align: center;
+    font-size: 2em;
 }
 
 tr:nth-child(1) {
